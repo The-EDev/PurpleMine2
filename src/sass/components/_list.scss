@@ -444,11 +444,25 @@ tr.entry {
   }
 }
 
-tr.issue .status{
-  border-radius: ($border-radius-small * 3);
-  background-color: $status-default-bg;
-  color: $status-default-color;
+
+@if $color-status {
+  tr.issue .status{
+    border-radius: ($border-radius-small * 3);
+    background-color: $status-default-bg;
+    color: $status-default-color;
+  }
+
+  @each $status, $status-colors in $status-colors-map {
+    &.#{$status} {
+      tr.issue .status{
+        background-color: map-get($status-colors, background);
+        color: map-get($status-colors, color);
+      }
+    }
+  }
+
 }
+
 
 @if $color-trackers {
   tr.issue .id > a,
