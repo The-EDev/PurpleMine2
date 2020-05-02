@@ -566,7 +566,7 @@ tr.entry {
   }
 }
 
-@if $color-id-issues {
+@if $color-id-status {
   tr.issue .id > a,
   tr.issue .issue_id > a,
   tr.issue .legacy_id > a,
