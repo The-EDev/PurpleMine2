@@ -481,9 +481,8 @@ tr.entry {
 
   @each $tracker, $tracker-colors in $tracker-colors-map {
     &.#{$tracker} {
-        .tracker{
         color: map-get($tracker-colors, background);
-      }}
+      }
   }
 
 }
