@@ -92,6 +92,8 @@
 // --------------------------------------------------
 
 .journal > div + .contextual {
+  padding-top: 0;
+  padding-bottom: 0;
   border: 0;
 
   > .heart-link-with-count {
@@ -297,6 +299,12 @@
       padding-top: $padding-base-vertical;
       line-height: inherit;
     }
+  }
+}
+
+#checklist-menu.ui-menu {
+  a {
+    padding: 2px 0 2px 24px;
   }
 }
 

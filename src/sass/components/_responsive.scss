@@ -83,6 +83,11 @@ body {
       overflow: auto;
     }
 
+    #ajax-indicator {
+      left: 50%;
+      width: 200px;
+    }
+
     .mobile-toggle-button {
       width: $responsive-header-height;
       height: $responsive-header-height;
@@ -126,7 +131,7 @@ body {
 
       ul {
         li:nth-child(n) {
-          a {
+          a:not(.icon-only) {
             height: auto;
             padding: $padding-large-vertical $padding-large-horizontal;
             line-height: $line-height-base;
@@ -142,13 +147,15 @@ body {
             }
 
             .icon-only {
-              flex: 0 0 40px;
+              flex: 0;
               padding-right: 0;
-              padding-left: 0;
+              padding-left: 40px;
               text-align: center;
+              text-overflow: initial;
 
               &::before {
-                line-height: inherit;
+                width: 40px;
+                margin-left: -40px;
               }
             }
           }
@@ -219,7 +226,7 @@ body {
 
       #admin-menu {
         a {
-          background-position: 8px center;
+          background-position: 8px center !important; // stylelint-disable-line declaration-no-important
 
           &.additionals {
             padding-left: 32px !important; // stylelint-disable-line declaration-no-important
@@ -254,7 +261,7 @@ body {
             }
 
             .delete {
-              flex: 0 0 24px;
+              margin-right: $padding-large-vertical;
               margin-left: auto;
               float: none;
               text-align: center;
@@ -412,7 +419,7 @@ body {
       }
     }
 
-    #issue-changesets {
+    div#issue-changesets {
       div.changeset {
         padding: 0;
       }
@@ -420,6 +427,10 @@ body {
 
     #admin-index > #admin-menu li {
       padding: 0;
+
+      a {
+        background-position: 8px center !important; // stylelint-disable-line declaration-no-important
+      }
     }
   }
 
