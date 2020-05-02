@@ -467,6 +467,27 @@ tr.entry {
 }
 }
 
+@if $color-trackers {
+  tr.issue {
+    .tracker{
+    color: $tracker-default-bg;
+    font-weight: 600
+  }
+
+  :focus,
+    &:active {
+      text-decoration: none;
+    }
+
+  @each $tracker, $tracker-colors in $tracker-colors-map {
+    &.#{$tracker} {
+        .tracker{
+        color: map-get($tracker-colors, background);
+      }}
+  }
+
+}
+}
 
 @if $color-trackers {
   tr.issue .id > a,
