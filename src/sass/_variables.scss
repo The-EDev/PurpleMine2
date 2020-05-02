@@ -254,11 +254,11 @@ $status-default-colors-map: (
     background:                 shade($blue, 500),
     color:                      $white
   ),
-  feedback: (
+  status-4: (
     background:                 shade($yellow, 500),
     color:                      $white
   ),
-  resolved: (
+  status-3: (
     background:                 shade($green, 500),
     color:                      $white
   ),
@@ -272,7 +272,7 @@ $status-default-colors-map: (
   )
 ) !default;
 $status-custom-colors-map: (
-  status-2: (
+  status-7: (
     background:                 shade($gray, 300),
     color:                      $white
 )
