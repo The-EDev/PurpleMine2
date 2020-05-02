@@ -267,13 +267,13 @@ $status-default-colors-map: (
     color:                      $white
   ),
   rejected: (
-    background:                 shade($red, 300),
+    background:                 shade($red, 700),
     color:                      $white
   )
 ) !default;
 $status-custom-colors-map: (
   status-7: (
-    background:                 shade($gray, 100),
+    background:                 shade($gray, 700),
     color:                      $white
 )
 ) !default;
