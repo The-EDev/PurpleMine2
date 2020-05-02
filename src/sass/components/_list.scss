@@ -448,16 +448,13 @@ tr.entry {
 @if $color-status {
   tr.issue {
     .status{
-    border-radius: ($border-radius-small * 3);
-    background-color: $status-default-bg;
-    color: $status-default-color;
+    color: $status-default-bg;
   }
 
   @each $status, $status-colors in $status-colors-map {
     &.#{$status} {
         .status{
-        background-color: map-get($status-colors, background);
-        color: map-get($status-colors, color);
+        color: map-get($status-colors, background);
       }}
   }
 
