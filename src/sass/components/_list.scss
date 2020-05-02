@@ -635,6 +635,7 @@ tr.entry {
   }
 
   @each $status, $status-colors in $status-colors-map {
+      tr.issue{
       &.#{$status}{
       tr.issue .id > a,
       tr.issue .issue_id > a,
@@ -642,9 +643,12 @@ tr.entry {
       a.issue,
       .relations > span > a.issue,
       .parent > a.issue {
-      background-color: map-get($status-colors, background);
-      color: map-get($status-colors, color);
-  }}}
+        background-color: map-get($status-colors, background);
+        color: map-get($status-colors, color);
+        }
+      }
+    }
+  }
 }
 
 
