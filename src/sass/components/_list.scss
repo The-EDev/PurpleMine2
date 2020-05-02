@@ -445,12 +445,17 @@ tr.entry {
 }
 
 
-@if $color-status {
+@if $color-status-text {
   tr.issue {
     .status{
     color: $status-default-bg;
     font-weight: 600
   }
+
+  :focus,
+    &:active {
+      text-decoration: none;
+    }
 
   @each $status, $status-colors in $status-colors-map {
     &.#{$status} {
