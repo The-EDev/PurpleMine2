@@ -575,11 +575,11 @@ tr.entry {
   .parent > a.issue {
     border-radius: $border-radius-small ($border-radius-small * 3) ($border-radius-small * 3) $border-radius-small;
     background-color: $status-default-bg;
-    color: $status-default-text;
+    color: $status-default-color;
 
     &:hover {
       background-color: darken($status-default-bg, 10%);
-      color: $status-default-text;
+      color: $status-default-color;
       text-decoration: none;
     }
 
@@ -625,7 +625,7 @@ tr.entry {
 
     &::before {
       content: "#";
-      color: mix($status-default-text, $status-default-bg, 50%);
+      color: mix($status-default-color, $status-default-bg, 50%);
     }
   }
 
@@ -635,12 +635,16 @@ tr.entry {
   }
 
   @each $status, $status-colors in $status-colors-map {
-    @include status(
-      ".#{$status}",
-      map-get($status-colors, background),
-      map-get($status-colors, color)
-    );
-  }
+      &.#{$status}{
+      tr.issue .id > a,
+      tr.issue .issue_id > a,
+      tr.issue .legacy_id > a,
+      a.issue,
+      .relations > span > a.issue,
+      .parent > a.issue {
+      background-color: map-get($status-colors, background);
+      color: map-get($status-colors, color);
+  }}}
 }
 
 
