@@ -447,7 +447,7 @@ tr.entry {
 
 @if $color-status {
   tr.issue {
-    &.status{
+    .status{
     border-radius: ($border-radius-small * 3);
     background-color: $status-default-bg;
     color: $status-default-color;
