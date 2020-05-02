@@ -444,6 +444,12 @@ tr.entry {
   }
 }
 
+tr.issue .status{
+  border-radius: ($border-radius-small * 3);
+  background-color: $status-default-bg;
+  color: $status-default-color;
+}
+
 @if $color-trackers {
   tr.issue .id > a,
   tr.issue .issue_id > a,
