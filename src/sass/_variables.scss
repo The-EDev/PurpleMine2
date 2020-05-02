@@ -273,7 +273,7 @@ $status-default-colors-map: (
 ) !default;
 $status-custom-colors-map: (
   status-7: (
-    background:                 shade($gray, 300),
+    background:                 shade($gray, 100),
     color:                      $white
 )
 ) !default;
