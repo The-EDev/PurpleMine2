@@ -455,9 +455,10 @@ tr.entry {
 
   @each $status, $status-colors in $status-colors-map {
     &.#{$status} {
+        .status{
         background-color: map-get($status-colors, background);
         color: map-get($status-colors, color);
-      }
+      }}
   }
 
 }
