@@ -449,6 +449,7 @@ tr.entry {
   tr.issue {
     .status{
     color: $status-default-bg;
+    font-weight: 600
   }
 
   @each $status, $status-colors in $status-colors-map {
