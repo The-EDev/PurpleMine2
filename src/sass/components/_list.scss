@@ -643,6 +643,10 @@ tr.entry {
         {
           background-color: map-get($status-colors, background);
           color: map-get($status-colors, color);
+          &::before {
+            content: "#";
+            color: mix(map-get($status-colors, color), map-get($status-colors, background), 50%);
+            }
         }
       }
     }
