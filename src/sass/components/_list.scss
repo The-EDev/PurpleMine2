@@ -479,10 +479,11 @@ tr.entry {
       text-decoration: none;
     }
 
-  @each $tracker, $tracker-colors in $tracker-colors-map {
-    &.#{$tracker} {
+  @each $tracker-id, $tracker-colors in $tracker-colors-map {
+    &.tracker-#{$tracker-id} {
+        .tracker{
         color: map-get($tracker-colors, background);
-      }
+      }}
   }
 
 }
