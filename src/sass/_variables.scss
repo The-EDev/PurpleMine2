@@ -248,12 +248,29 @@ $status-default-colors-map: (
     background:                 shade($blue, 500),
     color:                      $white
   ),
+  feedback: (
+    background:                 shade($yellow, 500),
+    color:                      $white
+  ),
+  resolved: (
+    background:                 shade($green, 500),
+    color:                      $white
+  ),
   closed: (
     background:                 shade($red, 500),
     color:                      $white
+  ),
+  rejected: (
+    background:                 shade($red, 300),
+    color:                      $white
   )
 ) !default;
-$status-custom-colors-map:      () !default;
+$status-custom-colors-map: (
+  status-2: (
+    background:                 shade($gray, 300),
+    color:                      $white
+)
+) !default;
 $status-colors-map:             map-merge($status-default-colors-map, $status-custom-colors-map);
 
 
