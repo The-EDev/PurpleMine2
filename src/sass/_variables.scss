@@ -559,10 +559,10 @@ $check-list-offset-top:         $input-padding-vertical + 1px;
 //== Top
 //
 
-$top-menu-bg:                   shade($gray-dark, 600) !default;
-$top-menu-text:                 shade($brand-primary, 100) !default;
-$top-menu-link:                 shade($brand-primary, 100) !default;
-$top-menu-link-hover:           shade($brand-primary, 50) !default;
+$top-menu-bg:                   shade($gray-dark, 700) !default;
+$top-menu-text:                 shade($brand-primary, 800) !default;
+$top-menu-link:                 shade($brand-primary, 800) !default;
+$top-menu-link-hover:           shade($brand-primary, 600) !default;
 
 $header-bg:                     $gray-dark !default;
 $header-text:                   $brand-primary !default;
@@ -700,7 +700,7 @@ $panel-body-padding-vertical:   15px !default;
 $panel-body-padding-horizontal: 15px !default;
 $panel-body-padding:            $panel-body-padding-vertical $panel-body-padding-horizontal !default;
 $panel-color:                   $text-color !default;
-$panel-bg:                      $gray-700 !default;
+$panel-bg:                      shade($gray-dark, 400) !default;
 $panel-border:                  $gray-800 !default;
 $panel-border-radius:           $border-radius-base !default;
 $panel-shadow:                  0 1px 2px rgba($black, .07),
