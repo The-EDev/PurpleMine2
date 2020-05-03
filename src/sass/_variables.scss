@@ -96,7 +96,7 @@ $state-danger:                  shade($red, 100) !default;
 //== Scaffolding
 //
 
-$body-bg:                       $white !default;
+$body-bg:                       $gray-950 !default;
 $text-color:                    $gray-800 !default;
 
 $link-color:                    shade($blue, 600) !default;
@@ -521,7 +521,7 @@ $highlight-link:                mix($yellow, $link-color) !default;
 //== Forms
 //
 
-$input-bg:                      $white !default;
+$input-bg:                      $gray-950 !default;
 $input-bg-disabled:             $gray-300 !default;
 
 $input-color:                   $text-color !default;
@@ -709,10 +709,10 @@ $panel-shadow:                  0 1px 2px rgba($black, .07),
 //== Tooltips
 //
 
-$tooltip-bg:                    $white !default;
+$tooltip-bg:                    $gray-950 !default;
 $tooltip-border-width:          0 !default;
 $tooltip-border:                $gray-500 !default;
-$tooltip-text:                  $gray-800 !default;
+$tooltip-text:                  $white !default;
 $tooltip-link:                  $link-color !default;
 
 
