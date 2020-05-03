@@ -605,7 +605,7 @@ $main-menu-link-active:         $white !default;
 $main-menu-border:              $gray-400 !default;
 $main-menu-shadow-hover:        $gray-800 !default;
 $main-menu-shadow-width:        3px !default;
-$main-menu-shadow-active:       $gray-dark !default;
+$main-menu-shadow-active:       $gray-200 !default;
 $main-menu-padding-vertical:    $padding-large-vertical !default;
 $main-menu-padding-horizontal:  5px !default;
 $main-menu-dropdown-bg:         $gray-dark;
@@ -617,20 +617,20 @@ $main-menu-dropdown-bg:         $gray-dark;
 $pagination-padding-vertical:   $btn-padding-vertical !default;
 $pagination-padding-horizontal: 10px !default;
 
-$pagination-color:              $gray-900 !default;
-$pagination-bg:                 $gray-200 !default;
-$pagination-border:             $gray-200 !default;
+$pagination-color:              $gray-300 !default;
+$pagination-bg:                 $gray-800 !default;
+$pagination-border:             $gray-800 !default;
 
-$pagination-hover-color:        $gray-900 !default;
-$pagination-hover-bg:           $gray-300 !default;
-$pagination-hover-border:       $gray-300 !default;
+$pagination-hover-color:        $gray-300 !default;
+$pagination-hover-bg:           $gray-700 !default;
+$pagination-hover-border:       $gray-700 !default;
 
 $pagination-active-color:       $brand-text !default;
 $pagination-active-bg:          $brand-primary !default;
 $pagination-active-border:      $brand-primary !default;
 
-$pagination-inactive-color:     $gray-500 !default;
-$pagination-inactive-bg:        $gray-50 !default;
+$pagination-inactive-color:     $gray-800 !default;
+$pagination-inactive-bg:        $gray-600 !default;
 $pagination-inactive-border:    $gray-800 !default;
 
 
