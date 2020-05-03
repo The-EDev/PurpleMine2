@@ -666,15 +666,15 @@ $sidebar-link-active-text:      $gray-600 !default;
 //== Flash messages (alerts)
 //
 
-$flash-success-bg:              shade($green, 400) !default;
+$flash-success-bg:              shade($gray-dark, 400) !default;
 $flash-success-border:          shade($green, 500) !default;
 $flash-success-text:            $white !default;
 $flash-success-link:            $white !default;
 
-$flash-warning-bg:              shade($yellow, 200) !default;
+$flash-warning-bg:              shade($gray-dark, 200) !default;
 $flash-warning-border:          shade($yellow, 300) !default;
-$flash-warning-text:            shade($yellow, 800) !default;
-$flash-warning-link:            shade($yellow, 900) !default;
+$flash-warning-text:            shade($yellow, 400) !default;
+$flash-warning-link:            shade($yellow, 200) !default;
 
 $flash-error-bg:                $red !default;
 $flash-error-border:            shade($red, 600) !default;
