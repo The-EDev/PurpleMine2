@@ -16,14 +16,14 @@
 
     ul {
       padding: 3px;
-      color: $pagination-bg;
+      background: $pagination-bg;
     }
 
     li {
       padding: 0;
       border: 0 none;
       border-radius: $border-radius-small;
-      background: $pagination-bg;
+      background: transparent;
 
       &:hover {
         background-color: $pagination-hover-bg;
