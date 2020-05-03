@@ -26,7 +26,7 @@ table.list {
     border: 2px solid $table-border-color;
     border-width: $table-list-header-border;
     background-color: $table-list-header-bg;
-    color: $gray-700;
+    color: $gray-600;
     vertical-align: bottom;
 
     @if $table-list-header-bg == $body-bg {
@@ -36,7 +36,7 @@ table.list {
     }
 
     a {
-      color: $gray-900;
+//      color: $gray-900;
     }
   }
 
