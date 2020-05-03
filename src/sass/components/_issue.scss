@@ -263,7 +263,7 @@
     }
 
     .value {
-      color: $gray-950;
+      color: $text-color;
 
       &:empty::after {
         content: "-";
