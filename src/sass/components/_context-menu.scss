@@ -27,7 +27,6 @@
 
       &:hover {
         background-color: $pagination-hover-bg;
-        color: $white;
       }
     }
 
@@ -45,6 +44,7 @@
       &:hover {
         border-color: $pagination-hover-border;
         background-color: $pagination-hover-bg;
+        color: $white;
       }
 
       &.disabled {
