@@ -597,7 +597,7 @@ $logo-position-horizontal:      $header-padding-vertical !default;
 $logo-position-vertical:        center !default;
 $logo-space:                    floor($header-padding-vertical / 2) !default;
 
-$main-menu-bg:                  $gray-dark !default;
+$main-menu-bg:                  $gray-900 !default;
 $main-menu-bg-hover:            $gray-700 !default;
 $main-menu-bg-active:           transparent !default;
 $main-menu-link:                $gray-100 !default;
@@ -605,10 +605,10 @@ $main-menu-link-active:         $white !default;
 $main-menu-border:              transparent !default;
 $main-menu-shadow-hover:        $gray-800 !default;
 $main-menu-shadow-width:        3px !default;
-$main-menu-shadow-active:       $gray-dark !default;
+$main-menu-shadow-active:       $gray-900 !default;
 $main-menu-padding-vertical:    $padding-large-vertical !default;
 $main-menu-padding-horizontal:  5px !default;
-$main-menu-dropdown-bg:         $gray-dark;
+$main-menu-dropdown-bg:         $gray-900;
 
 
 //== Pagination
