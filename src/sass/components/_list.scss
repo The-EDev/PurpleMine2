@@ -650,6 +650,12 @@ tr.entry {
         }
       }
     }
+    a.issue{
+      &.#{$status}{
+        background-color: map-get($status-colors, background);
+        color: map-get($status-colors, color);
+      }
+    }
   }
 }
 
