@@ -641,7 +641,7 @@ $tab-padding-vertical:          5px !default;
 $tab-padding-horizontal:        8px !default;
 $tab-border:                    $gray-500 !default;
 $tab-hover-bg:                  $gray-800 !default;
-$tab-hover-text:                $gray-950 !default;
+$tab-hover-text:                $gray-600 !default;
 $tab-hover-border:              $tab-hover-bg !default;
 $tab-active-bg:                 $body-bg !default;
 $tab-active-text:               $text-color !default;
@@ -660,7 +660,7 @@ $sidebar-link-hover-text:       $gray-100 !default;
 $sidebar-link-active-bg:        $body-bg !default;
 $sidebar-link-active-border:    $gray-400 !default;
 $sidebar-link-active-side:      $red !default;
-$sidebar-link-active-text:      $gray-950 !default;
+$sidebar-link-active-text:      $gray-600 !default;
 
 
 //== Flash messages (alerts)
@@ -700,7 +700,7 @@ $panel-body-padding-vertical:   15px !default;
 $panel-body-padding-horizontal: 15px !default;
 $panel-body-padding:            $panel-body-padding-vertical $panel-body-padding-horizontal !default;
 $panel-color:                   $text-color !default;
-$panel-bg:                      $gray-950 !default;
+$panel-bg:                      $gray-700 !default;
 $panel-border:                  $gray-800 !default;
 $panel-border-radius:           $border-radius-base !default;
 $panel-shadow:                  0 1px 2px rgba($black, .07),
